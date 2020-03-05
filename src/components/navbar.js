@@ -8,7 +8,7 @@ export default function navbar() {
             <Navbar bg="dark" variant="dark">
                 <Container>
     <Navbar.Brand href="#home">
-      <div className="color">StockEZ.com</div>
+      <div className="color">StockEZe.com</div>
     </Navbar.Brand>
     </Container>
   </Navbar>
