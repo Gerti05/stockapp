@@ -10,7 +10,11 @@ const FooterPage = () => {
           <Col>
             <div className="color2">
               &copy; {new Date().getFullYear()} Copyright:{" "}
+<<<<<<< HEAD
               <span className="color"> StockEZe </span>
+=======
+              <span className="color"> StockEZ </span>
+>>>>>>> 338283df7d7db0153751c314b63c0940f1234734
             </div>
           </Col>
         </Row>
