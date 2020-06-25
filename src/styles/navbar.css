@@ -1,0 +1,13 @@
+.color {
+  color: #eff0d1;
+}
+
+.color2 {
+  color: #fff;
+}
+
+@media only screen and (max-width: 900px) {
+  .searchMargin {
+      margin-bottom: 1vh;
+  }
+}
