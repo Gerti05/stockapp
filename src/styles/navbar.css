@@ -1,13 +1,19 @@
-.color {
-  color: #eff0d1;
+.navFont {
+  font-family: 'Oswald', sans-serif;
 }
 
-.color2 {
-  color: #fff;
+.navLogo {
+border-bottom: dashed 2px #879e93
 }
 
-@media only screen and (max-width: 900px) {
-  .searchMargin {
-      margin-bottom: 1vh;
-  }
+.navLink:after {
+  display: block;
+  content: "";
+  border-bottom: dashed 2px #879e93;
+  transform: scaleX(0);
+  transition: 250ms ease-in-out;
+}
+
+.navLink:hover:after {
+  transform: scaleX(1);
 }
